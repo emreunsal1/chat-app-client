@@ -9,7 +9,6 @@
   justify-content: center;
   align-items: center;
   width: 650px;
-  background-color: red;
 }
 
 .chat-list {
@@ -21,24 +20,25 @@
 
 .form-container {
   width: 100%;
+  input {
+    width: 100%;
+    outline: solid 1px #ddd;
+    padding: 10px 0;
+    border: none;
+    text-indent: 10px;
+    font-size: 16px;
+  }
 }
 
-.form-container input {
-  width: 100%;
-  outline: solid 1px #ddd;
-  padding: 10px 0;
-  border: none;
-  text-indent: 10px;
-  font-size: 16px;
-}
-
-.chat-list .chat-item {
-  background-color: #72a5d2;
-  display: inline-flex;
-  padding: 6px;
-  border-radius: 5px;
-  font-size: 1.1rem;
-  margin: 5px;
+.chat-list {
+  .chat-item {
+    background-color: #72a5d2;
+    display: inline-flex;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    margin: 5px;
+  }
 }
 
 .chat-item-container {
