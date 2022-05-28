@@ -43,8 +43,7 @@
 
 .chat-item-container {
   display: flex;
-}
-
-.chat-item-container.from-me {
-  justify-content: flex-end;
+  &.from-me {
+    justify-content: flex-end;
+  }
 }
