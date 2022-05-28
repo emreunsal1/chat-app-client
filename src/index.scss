@@ -23,11 +23,13 @@
   .input-group {
     display: flex;
     align-items: center;
+    outline: solid 1px #ddd;
+
     input {
       width: 100%;
-      outline: solid 1px #ddd;
       padding: 10px 0;
       border: none;
+      outline: none;
       text-indent: 10px;
       font-size: 16px;
     }

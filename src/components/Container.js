@@ -11,7 +11,6 @@ function Container() {
     init();
 
     subscribeToMessages((message) => {
-      console.log("callback function");
       setChat((prev) => [...prev, { text: message }]);
     });
   }, [setChat]);
